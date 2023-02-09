@@ -11,7 +11,7 @@
   background-size: 100% 100%;
 }
 .container {
-  margin: 0 230px;
+  margin: 0 200px;
   text-align: end;
   padding: 120px 0px 30px 0px;
 }
@@ -41,11 +41,15 @@
   border-radius: 10px;
 }
 
-/* previous year container*/
+main,
+footer section {
+  margin: 0 150px;
+}
 
+/* ***********previous year container*************/
 .previous-year-container {
   display: flex;
-  margin: 130px 150px;
+  margin: 130px 0;
   gap: 87px;
 }
 .previous-year-container img {
@@ -78,10 +82,11 @@
 .previous-year-container .items i {
   color: #16d887;
 }
-/*  */
+
+/* **************** plans style**************** */
 
 .plans-container {
-  margin: 100px 100px;
+  margin: 100px 0;
 }
 .plans-container .title {
   font-weight: 700;
@@ -105,7 +110,7 @@
 }
 .plan h3 {
   font-weight: 700;
-  font-size: 30px;
+  font-size: 24px;
   line-height: 35px;
   margin-top: 24px;
   margin-bottom: 16px;
@@ -113,17 +118,17 @@
 
 .plan h5 {
   font-weight: 500;
-  font-size: 25px;
+  font-size: 20px;
   line-height: 29px;
   color: #737272;
 }
-/* Mind set styles */
+
+/* *************** Mind set styles ********************/
 .bg-mindset {
-  /* background-image:; */
+  background: linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%),
+    url(../images/watch.png);
   background-size: 100% 100%;
-  padding: 59px 64px;
-  margin: 0 200px;
-  background: linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%), url(../images/watch.png);
+  padding: 59px 64px; 
   border-radius: 8px;
   margin-bottom: 100px;
 }
@@ -133,4 +138,57 @@
   font-size: 40px;
   line-height: 47px;
   color: white;
+}
+
+/* ***************footer style***************** */
+footer {
+  background: #151414;
+  padding: 100px 0;
+}
+footer section {
+  display: flex;
+  justify-content: center;
+
+  gap: 220px;
+}
+
+footer h2 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #f8f8f8;
+}
+footer p {
+  font-weight: 400;
+  line-height: 26px;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+footer .title {
+  margin-bottom: 24px;
+}
+
+.subscribe input {
+  margin-top: 31px;
+  padding: 10px;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  width: 300px;
+  display: block;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+.subscribe a {
+  text-decoration: none;
+  color: white;
+  background: #005fac;
+  border-radius: 8px;
+  padding: 20px 30px;
+  display: inline-block;
+  margin-top: 16px;
+}
+.icons img {
+  margin-right: 18px;
 }
