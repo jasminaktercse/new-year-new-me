@@ -79,3 +79,42 @@
   color: #16d887;
 }
 /*  */
+
+.plans-container {
+    margin: 100px 0;
+}
+.plans-container .title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  color: #151414;
+}
+.plans { 
+  display: flex;
+  justify-content: center;
+  gap: 86px;
+}
+.plan {
+  margin-top: 50px; 
+  text-align: center;
+}
+.plan img {
+  width: 92.96px;
+  height: 92.96px;
+}
+.plan h3 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+.plan h5 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px; 
+  color: #737272;
+}
+/*  */
