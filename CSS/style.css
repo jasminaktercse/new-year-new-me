@@ -81,7 +81,7 @@
 /*  */
 
 .plans-container {
-    margin: 100px 0;
+  margin: 100px 100px;
 }
 .plans-container .title {
   font-weight: 700;
@@ -90,13 +90,13 @@
   text-align: center;
   color: #151414;
 }
-.plans { 
+.plans {
   display: flex;
   justify-content: center;
   gap: 86px;
 }
 .plan {
-  margin-top: 50px; 
+  margin-top: 50px;
   text-align: center;
 }
 .plan img {
@@ -114,7 +114,23 @@
 .plan h5 {
   font-weight: 500;
   font-size: 25px;
-  line-height: 29px; 
+  line-height: 29px;
   color: #737272;
 }
-/*  */
+/* Mind set styles */
+.bg-mindset {
+  /* background-image:; */
+  background-size: 100% 100%;
+  padding: 59px 64px;
+  margin: 0 200px;
+  background: linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%), url(../images/watch.png);
+  border-radius: 8px;
+  margin-bottom: 100px;
+}
+.bg-mindset h2 {
+  margin-bottom: 24px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: white;
+}
